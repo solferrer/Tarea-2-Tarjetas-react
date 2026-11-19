@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f3fa;
+  color: #333;
+}
+
+main {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+h1 {
+  color: #74458b;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tarjeta {
+  background-color: white;
+  width: 280px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-8px);
+}
+
+.tarjeta img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #e9d5f0;
+}
+
+.tarjeta h2 {
+  color: #74458b;
+  margin-bottom: 10px;
+}
+
+.tarjeta h3 {
+  color: #b77bc8;
+  font-size: 16px;
+}
+
+.tarjeta p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .contenedor-tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta {
+    width: 100%;
+    max-width: 320px;
+  }
+}
