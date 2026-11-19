@@ -64,11 +64,11 @@ que indique Vite.
 
 ### Vista de escritorio
 
-![Vista de escritorio](capturas/escritorio.png)
+![Vista de escritorio](src/capturas/escritorio.png)
 
 ### Vista de celular
 
-![Vista responsive](capturas/celular.png)
+![Vista responsive](src/capturas/celular.png)
 
 ## Autor
 
