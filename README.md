@@ -36,7 +36,7 @@ y la utilización de props para reutilizar componentes.
 ### 1. Clonar el repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/solferrer/Tarea-2-Tarjetas-react.git
 ```
 
 ### 2. Entrar a la carpeta del proyecto
